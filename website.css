@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+/* Deals with styling throughout the website*/
+
 body{
     height: 100vh;
     margin:0;
@@ -25,6 +27,25 @@ body{
     font-weight: 700;
     font-style: bold;
 }
+
+/* All Bookmarks*/
+.intro-bookmark{
+    position:absolute;
+    top:14%;
+    left:39%;
+    font-size: 1.5rem;
+}
+
+.about-me-bookmark{
+    position:absolute;
+    top:14%;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+/* Intro and Title*/
 
 .title-head {
     position:absolute;
@@ -53,6 +74,24 @@ body{
     font-size: 1.7rem;
 }
 
+/* About Me */
+.about-me-head{
+    position:absolute;
+    top:120%;
+    right:24.7%;
+    text-align:left;
+    font-size: 3.3rem;
+}
+
+.about-me-text{
+    position:absolute;
+    top:100%;
+    right:24.7%;
+    text-align:left;
+    font-size: 3.3rem;
+}
+
+/* All buttons leading to external information about myself */
 .button{
     background-color:pink;
     display:inline-block;
