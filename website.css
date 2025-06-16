@@ -1,4 +1,4 @@
-b.utton{
+.button{
     background-color:pink;
     display:inline-block;
     color:white;
@@ -8,5 +8,5 @@ b.utton{
 }
 
 .button:hover{
-    color:rgb(172, 97, 109);
+    background-color:rgb(143, 77, 88);
 }
