@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/*https://mail.google.com/mail/?view=cm&to=*/
-
 /* Deals with styling throughout the website*/
-
 body{
     height: 100vh;
     margin:0;
@@ -67,9 +64,24 @@ body{
     
 }
 
+.intro-pic{
+    position:absolute;
+    top:60%;
+    left:10%;
+    transform:translateY(-50%);
+}
+
+.bookmark-spacing{
+    position:block;
+    height:6.25rem;
+    margin-top:-6.25rem;
+    visibility:hidden;
+}
+
 .intro-head {
     position:absolute;
-    top:25%;
+    scroll-margin-top:100%;
+    top:28%;
     right:13%;
     text-align:left;
     font-size: 3.3rem; 
