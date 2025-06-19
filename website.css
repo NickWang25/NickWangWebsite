@@ -71,11 +71,14 @@ body{
     transform:translateY(-50%);
 }
 
-.bookmark-spacing{
-    position:block;
+.intro-spacing{
+    display:block;
     height:6.25rem;
     margin-top:-6.25rem;
     visibility:hidden;
+    position:absolute;
+    top:30vh;
+    right:24.7%;
 }
 
 .intro-head {
@@ -96,9 +99,19 @@ body{
 }
 
 /* About Me */
+.about-me-spacing{
+    display:block;
+    height:6.25rem;
+    margin-top:-6.25rem;
+    visibility:hidden;
+    position:absolute;
+    top:135vh;
+    right:24.7%;
+}
+
 .about-me-head{
     position:absolute;
-    top:130%;
+    top:130vh;
     right:24.7%;
     text-align:left;
     font-size: 3.3rem;
